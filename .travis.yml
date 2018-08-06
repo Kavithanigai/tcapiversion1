@@ -1,0 +1,8 @@
+language: node_js
+deploy:
+  provider: heroku
+  api_key:
+    secure: eY42e/Pa0RNCPgF3OlS/yHGtQTOl3ilDacJlWlWG+HGGmPAiomMIvBWnH85w7Axip/Y8a+nzJkR15W6ie+jbBuJQ0I11OX+W2rnoqcSAXYctVk4/G2/lYfSZeYsAzZTjstRoxWBgS+NlSaNe85FR+n//mTyeep7jY0GGWbCu9PE1CAGcklKQdXv5PsSTTFI8WpXAQs2uXTpgg3Tw9ld39LO/Xo06OmlvLcpKh6H26s+0thuM0kVZ6WCCXk7WOvTlKsespwBP+lmqPQ7cY2ojAEe6Lz7OxN4MP6Qlyx0rqVbgUff+WQzleHX8XTwVaULCzcTDqXnBx6GKaNSZqAWKSW+auDNljOpdtv4WeD0lfsX22JG2lHaCtQa5BDDE3dtxpOTTc8K8liLY47FS2kFHOTqNUKZBnoIB16nUrn0HclBFoawSOHksRgvc5PD+hyRRf0xKe5J90m/WZP/fDsdxFnWqN1OdgyqO+9s/lJJiBzYFlpjFEgSz9aBDzNk7f2YFORCtobMk28ppbxdqBojraT1lETFtNCF8kyDH6AGVoDNYzIySlYJqCec9AkFDiUpKwBW6gpQMItfklR/GQOX5/r2a4+VxjQoEtjxwuE2Qgd9NL6vVdEWdwTLcpKRbOluTvH0c/lkjXzeaEK8o24TFeUTOg54d7GEycylc9ZtsQB4=
+  app: agile-beach-35703
+  on:
+    repo: Kavithanigai/tcapiversion1
