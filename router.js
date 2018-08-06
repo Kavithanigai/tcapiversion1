@@ -25,7 +25,7 @@ function getuserid(token) {
 module.exports = function(app) {
   app.use(morgan('common'));
 
-  app.get('/', requireAuth, function(req, res) {
+  app.get('/', function(req, res) {
     res.send({ hi: 'there' });
   });
   app.post('/signin', requireSignin, Authentication.signin);
